@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="systemui_theme" parent="@android:style/Theme.Material"/>
+    <style name="systemui_theme" parent="@android:style/Theme.Material">
+        <item name="android:navigationBarColor">#cccccc</item>
+    </style>
     <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog"/>
     <style name="TextAppearance.Material.Notification.Parenthetical"
            parent="@android:style/TextAppearance.Material.Notification">

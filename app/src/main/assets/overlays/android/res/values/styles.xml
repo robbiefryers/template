@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material"/>
+    <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material">
+        <item name="android:navigationBarColor">#ff3575e0</item>
+    </style>
+
     <style name="Theme.Material.Light.Dialog.NoActionBar"
            parent="@android:style/Theme.Material.Dialog">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">#ff3575e0</item>
     </style>
     <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material.Panel">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -17,6 +21,7 @@
         <item name="windowTranslucentStatus">false</item>
         <item name="windowTranslucentNavigation">false</item>
         <item name="windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:navigationBarColor">#ff3575e0</item>
     </style>
     <style name="Widget.DeviceDefault.Light" parent="@android:style/Widget.Material"/>
     <style name="Widget.DeviceDefault.Light.Button" parent="@android:style/Widget.Material.Button"/>
@@ -167,14 +172,14 @@
         <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
-        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">#ff3575e0</item>
     </style>
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material">
         <item name="android:colorPrimary">@android:color/holo_blue_light</item>
         <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
         <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
-        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">#ff3575e0</item>
     </style>
     <style name="Theme.Material.Settings.NoActionBar"
            parent="@android:style/Theme.Material.NoActionBar">
@@ -187,6 +192,7 @@
         <item name="android:colorPrimary">@android:color/holo_blue_light</item>
         <item name="android:colorPrimaryDark">@android:color/holo_blue_dark</item>
         <item name="android:colorAccent">@android:color/holo_blue_bright</item>
+
     </style>
     <style name="Theme.Material.Settings.Dialog.BaseAlert"
            parent="@*android:style/Theme.Material.Dialog.BaseAlert">
@@ -291,7 +297,9 @@
     <style name="TextAppearance.Toast" parent="@android:style/TextAppearance">
         <item name="android:textStyle">bold</item>
     </style>
-    <style name="Theme.Material.DayNight" parent="@android:style/Theme.Material"/>
+    <style name="Theme.Material.DayNight" parent="@android:style/Theme.Material">
+        <item name="android:navigationBarColor">#ff3575e0</item>
+    </style>
     <style name="Theme.Material.DayNight.DarkActionBar" parent="@android:style/Theme.Material"/>
     <style name="Theme.Material.DayNight.Dialog.MinWidth"
            parent="@android:style/Theme.Material.Dialog.MinWidth"/>

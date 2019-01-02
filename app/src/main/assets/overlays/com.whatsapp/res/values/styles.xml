@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="Base.V7.Theme.AppCompat" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:navigationBarColor">#cccccc</item>
+    </style>
+
+    <style name="Base.V7.Theme.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:navigationBarColor">#cccccc</item>
+    </style>
+
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:navigationBarColor">#cccccc</item>
+    </style>
+
+
+
+
+</resources>
+
+

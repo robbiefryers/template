@@ -25,8 +25,8 @@ android {
 
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
-        // thoroughly!
-        applicationId "substratum.theme.template"
+        // thoroughly!sd
+        applicationId "com.rob.navbars"
         // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion 24
@@ -70,6 +70,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:design:27.1.0'
     implementation 'com.github.javiersantos:PiracyChecker:1.2.4'
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version") {
         transitive = true

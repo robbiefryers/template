@@ -41,7 +41,7 @@
 
         <meta-data
             android:name="Substratum_Legacy"
-            android:value="@bool/ThemeSupportLegacy"/>
+            android:value="true"/>
         <meta-data
             android:name="Substratum_Name"
             android:value="@string/ThemeName"/>

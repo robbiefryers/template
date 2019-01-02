@@ -2,8 +2,10 @@
 <resources>
     <style name="DualToneLightTheme">
         <item name="android:fillColor">#ffffffff</item>
+        <item name="android:navigationBarColor">#cccccc</item>
     </style>
     <style name="DualToneDarkTheme">
         <item name="android:fillColor">#7a000000</item>
+        <item name="android:navigationBarColor">#cccccc</item>
     </style>
 </resources>
